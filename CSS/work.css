@@ -1,0 +1,77 @@
+
+*{
+        margin: 0;
+        padding: 0;
+}
+nav ul{display: flex;
+        background-color:rgb(209, 186, 186);  
+        list-style: none; 
+        align-items: center;
+        padding: 0 3em;
+        margin: 0;
+      }
+         
+      ul li{
+
+        font-weight: bold;
+        font-family: serif;
+        margin: 0 1em;
+         text-decoration: none;}
+      
+      li#logo { 
+        margin-right: auto;
+        text-decoration: none;
+      }
+      li a{text-decoration: none;}
+      li a :hover{
+        background-color:cyan ;
+      }
+      li a :visited{
+          background-color:yellow;
+      }
+      li a :focus{
+          background-color:red;
+      }
+
+    
+#image2{
+        width:60px;
+        height:60px;}
+
+.vid{
+        margin-right:  10em;
+        margin-left: 10em;
+        text-align: left;}
+.mama{
+        padding-left: 2em;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        grid-template-areas: "a b "
+                             "a b ";}
+body{
+        font-size: 1.3em;
+        background-size: cover;
+        background-image:url( back.png );
+}
+.im1{
+        grid-area: a;
+       margin-left: 1em;
+       margin-right: 10em;}
+.v1{
+    grid-area: b;
+    padding: 0 10% 5% 0;
+}
+.v1 #vd video{
+        width: 100%;
+        height: 100%;
+}
+
+footer{display: flex;
+        background-color:rgb(209, 186, 186);  
+        list-style: none;}
+
+#fof{padding-right: 10%;
+    padding-left: 40%;}
+    
+    

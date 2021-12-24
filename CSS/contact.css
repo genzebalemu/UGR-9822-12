@@ -1,0 +1,80 @@
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+nav ul{display: flex;
+   align-items: center; 
+   background-color:rgb(209, 186, 186);  
+   list-style: none; 
+   padding: 0 3em;
+   margin: 0;}
+    
+nav ul li{
+   font-size: 1.5em;
+   font-family: serif;
+   color: black;
+   font-weight: bold;
+   font-family: serif;
+    margin: 0 1em;
+    text-decoration: none;}
+
+nav ul li#logo { border-radius: 0;
+   margin-right: auto;
+   text-decoration: none;
+}
+
+nav ul li a{text-decoration: none;}
+li a :hover{
+   background-color:rgb(0, 122, 24);
+}
+li a :visited{
+     background-color: rgb(78, 69, 78);
+}
+li a :focus{
+     background-color: black;
+}
+
+#image2{width: 60px; height: 60px;}
+
+main{
+  background-color:rgb(222, 195, 135);
+   }
+
+.par2{
+   padding: 2em 1em;
+}
+
+.par3{
+   padding-left: 1em;
+}
+
+.par3 ul{list-style: none;
+   }
+.lol{
+   padding: 1em 1em;}
+.submit{
+  
+   padding-left: 2em;
+}
+ul li{
+   border: none;
+}
+#tee{padding-bottom: 2em;}
+#paa{
+   padding-bottom: 3em;}
+footer{
+   display: flex;
+   list-style: none;
+   background-color:rgb(209, 186, 186);  
+   padding-top: 0;
+}
+li#foll{
+   margin-left: 20em;}
+
+li#mail{
+   margin-left:15em; }
+   
+  
+  

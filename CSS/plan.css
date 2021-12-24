@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{display: flex;
+    align-items: center; 
+    background-color:rgb(209, 186, 186);   ;
+    list-style: none; 
+    align-items: center;
+    padding: 0 3em;
+    margin: 0;
+  }
+     
+ nav ul li{
+     font-size: 1.5em;
+     color: black;
+    font-weight: bold;
+    font-family: serif;
+    margin: 0 1em;
+     border-radius: 10px;
+     text-decoration: none;}
+  
+nav ul li#logo { border-radius: 0;
+    margin-right: auto;
+    text-decoration: none;
+  }
+  li a{text-decoration: none;}
+  li a :hover{
+    background-color:rgb(14, 88, 60) ;
+  }
+  li a :visited{
+      background-color: purple;
+  }
+  li a :focus{
+      background-color: black;
+  }
+
+#image2{
+    width: 60px; height: 60px;}
+
+ h1{
+    padding-left: 5em;
+    padding-right: 3em;}
+
+#image1{
+    padding:0 5em;
+    width: 30em;
+    height: 18em;}
+
+#image4{
+    width: 20em;
+    height: 18em;}
+
+#image5{
+    width: 30em;
+    height: 18em;}
+
+   
+.plan{
+    display: flex;
+    padding-left: 2em;
+}
+main{background-color: powderblue;}
+.plan5{
+    margin-left: 1em;
+    width: 20em;
+}
+
+.plan3{
+    padding-right: 0 2em;
+    width:20 em ;
+}
+.plan4{
+    display: flex;
+    padding:0 1em;
+    width: 100%;
+}
+footer{
+    display: flex;
+    flex-wrap: none;
+   background-color:rgb(209, 186, 186);
+    list-style: none;}
+
+footer li{
+    margin-left: auto;
+    margin-right: 20em;
+}
